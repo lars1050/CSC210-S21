@@ -1,0 +1,16 @@
+CSC210 Lab 1 Bank Accounts
+
+NAME:
+
+Please report the status of each component by indicating any missing parts or errors. If you think it is good, state "complete and correct".
+
+1. class Checking
+
+2. class Visa
+
+3. Transactions
+
+4. Javadocs
+
+
+What grade do you anticipate receiving on this lab (A,B,C,D,F)?
