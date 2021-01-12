@@ -241,6 +241,6 @@ Banks keep track of all transactions so that they can be reviewed. Add this func
 - Add the Account method `public void printTransactions()` to print the transaction list. Print a heading first that includes account information. You can use the `toString()` method of Account for this. For example, the heading might look like:
   _Transactions for Account 23610002 (Annika Haas) balance $150.00_.
 
-6. The last step is to complete `report.txt` to provide a status report for each component.
+### 6. The last step is to complete `report.txt` to provide a status report for each component.
 
 Lab Is Complete! Good work!
