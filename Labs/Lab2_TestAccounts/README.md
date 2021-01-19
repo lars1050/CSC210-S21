@@ -2,9 +2,10 @@
 #### DUE: Monday, Jan 25 end of day
 #### Zip all files and submit via Moodle
 
-> Your goal for Tuesday lab is to complete the unit tests for the XYZ exercise.
+Your goal IN LAB is to complete the exercise zyBooks-testing: 
+https://github.com/lars1050/CSC210-S21/tree/main/Exercises/zyBooks-testing. Use the Google form to submit your work:
 
-> Late submissions ...
+https://forms.gle/n5CX4HoHxKujy8ow7
 
 This lab is all about unit tests (see zyBooks sections on Unit Testing for more information). Testing is an important part of code development. You can test your code informally using print statements or interacting with your code and looking at the output (similar to how zyBooks does testing). However, it is standard industry practice that you develop formal automated unit tests using a testing framework, like JUnit. And if you are using _Test-Driven Development_, you will be writing the tests first, then writing the code! Tests can be developed only with a clear understanding of the requirements and of the expected behavior.  
 
