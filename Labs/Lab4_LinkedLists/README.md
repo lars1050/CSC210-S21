@@ -19,6 +19,8 @@
 5. Document code internally with in-line comments.
 6. Verify code using tests from this directory (see guide below).
 
+## SPECIAL RULE: NO FOR-LOOPS! YOU MUST USE WHILE-LOOPS!
+
 <hr>
 
 ### Getting Started
@@ -36,6 +38,8 @@ You can select whether you are testing your array implementation or your linked 
 My last comment is that this is not likely how you would see this put together in an industry setting. First, you would not create 2 different implementations with the exact same functionality. You would probably use formal testing platforms (like JUnit) rather than this "homegrown" version. You would probably have everything in packages. And you would probably put all the test code in its own directory so that it doesn't clutter the production code. And for "bad" input or erroneous conditions, you would probably be throwing exceptions. It has been structured this way for ease-of-use and ease-of-grading.
 
 ### Requirements
+
+## SPECIAL RULE: NO FOR-LOOPS! YOU MUST USE WHILE-LOOPS! 
 
 1. Convert `class SongList` to `class ListArray <T>` which implements the List interface. *FIND AND REPLACE IS YOUR FRIEND!* Add methods as needed to implement the interface. These can be stubs -- they need to be completed for the project but not the lab.
 
