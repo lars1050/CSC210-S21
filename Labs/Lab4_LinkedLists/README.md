@@ -37,6 +37,8 @@ You can select whether you are testing your array implementation or your linked 
 
 My last comment is that this is not likely how you would see this put together in an industry setting. First, you would not create 2 different implementations with the exact same functionality. You would probably use formal testing platforms (like JUnit) rather than this "homegrown" version. You would probably have everything in packages. And you would probably put all the test code in its own directory so that it doesn't clutter the production code. And for "bad" input or erroneous conditions, you would probably be throwing exceptions. It has been structured this way for ease-of-use and ease-of-grading.
 
+> NOTE: The instantiation of the songs in the test files have an error. Please remove the quotes around the years. You will find the instantiations at the top of each of the test files.
+
 ### Requirements
 
 ## SPECIAL RULE: NO FOR-LOOPS! YOU MUST USE WHILE-LOOPS! 
