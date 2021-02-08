@@ -138,7 +138,7 @@ public static void removeDuplicates() {
 	Assert.assertEquals(3,list.peek(3),"remove dups {1,5,1,2,5,3,5,3} at 3");
 
 	} // end removeDuplicates
-	```
+```
 
 <hr>
 
