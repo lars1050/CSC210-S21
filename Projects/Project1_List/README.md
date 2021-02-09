@@ -21,8 +21,10 @@
 5. Verify code using tests from this directory (see guide below).
 6. Complete the google form.
 
-### SPECIAL RULE: NO FOR-LOOPS! YOU MUST USE WHILE-LOOPS!
+### SPECIAL RULE: NO FOR-LOOPS in the linked list! YOU MUST USE WHILE-LOOPS!
 #### EXCEPT if you are iterating over an array that was passed in (e.g. in `addUnique(T[] array)` and `toArray(T[] array)`).
+
+> My apologies for not adding the "in the linked list" part! **You can keep your for-loops in the arrays, but not in linked lists.** 
 
 <hr>
 
@@ -144,8 +146,10 @@ public static void removeDuplicates() {
 
 ### Code Requirements
 
-#### SPECIAL RULE: NO FOR-LOOPS! YOU MUST USE WHILE-LOOPS!
+#### SPECIAL RULE: NO FOR-LOOPS IN THE LINKED LISTS! YOU MUST USE WHILE-LOOPS!
 #### EXCEPT if you are iterating over an array that was passed in (e.g. in `addUnique(T[] array)` and `toArray(T[] array)`).
+
+> My apologies for not adding the "in the linked list" part! **You can keep your for-loops in the arrays, but not in linked lists.** 
 
 > You may not use any code from the web as part of your solution for any part of this project!! The one exception is the pseudocode that is in your zyBooks textbook. I will ask you to both read and write code that operates on arrays and linked list on the exam (guaranteed!), so you will have a hard time doing that on the exam if you don't practice it with this project.
 
