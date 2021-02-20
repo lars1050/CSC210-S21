@@ -58,8 +58,10 @@ public class TestStudents {
 		students.add(matt);
 
 		// Testing order maintained by year, then credits when adding students.
+		// NOTE: ordering incorrect originally. 
+		// Also, I have years in ascending and credits in descending. I will accept either order.
 		// VISUAL INSPECTION
-		System.out.println("ORDER BY YEAR Expect: joA, joS, isa, matt, mia, su");
+		System.out.println("ORDER BY YEAR Expect: joA, isa, joS, matt, mia, su");
 		System.out.println("\n"+students);
 
 	} // end testOrderAge
