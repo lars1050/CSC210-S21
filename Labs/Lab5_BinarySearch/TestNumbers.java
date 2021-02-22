@@ -41,7 +41,7 @@ public class TestNumbers {
 		numbers.add(20);
 
 		// list should be { 10, 20, 30, 40 }
-		assertEquals(null,numbers.findIterative(2),"find something not there");
+		assertEquals(-1,numbers.findIterative(2),"find something not there");
 		assertEquals(0,numbers.findIterative(10),"findIt first");
 		assertEquals(3,numbers.findIterative(40),"findIt last");
 		assertEquals(1,numbers.findIterative(20),"findIt in middle (even)");
@@ -62,7 +62,7 @@ public class TestNumbers {
 		numbers.add(20);
 
 		// list should be { 10, 20, 30, 40 }
-		assertEquals(null,numbers.find(2),"find something not there");
+		assertEquals(-1,numbers.find(2),"find something not there");
 		assertEquals(0,numbers.find(10),"findRec first");
 		assertEquals(3,numbers.find(40),"findRec last");
 		assertEquals(1,numbers.find(20),"findRec in middle (even)");
