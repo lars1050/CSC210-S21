@@ -17,7 +17,7 @@
 
 ### Your Assignment
 
-In this assignment, you will use the interface Comparator to give the user the option to order Students in various ways. This will replace the switch-statement that you put in the compareTo method in class Student. Here is an example of a Comparator class for a class called Simple.
+In this assignment, you will use the interface Comparator to give the user the option to order Students in various ways. This will replace the switch-statement that you put in the compareTo method in class Student. 
 
 Here is an example of a Comparator for a Simple class that has a String and an Integer component:
 
@@ -40,11 +40,11 @@ To get started, copy your Lab 5 into a new project. _If you did not get Lab 5 wo
 
 2. Delete the enum Order and orderBy variable.
 
-2. Implement a `public Comparator<Student> byName` that orders items by last name, with the first name as a tie breaker. Please DECLARE and DEFINE the comparator in a single statement.
+2. Implement a `public static Comparator<Student> byName` that orders items by last name, with the first name as a tie breaker. Please DECLARE and DEFINE the comparator in a single statement. This is slightly different from the example shown above.
 
 	**In the class MAIN**
 
-3. Implement a `public static Comparator<Student> byYear` that orders items by year of graduation, with number of credits as a tie breaker. Please DECLARE and DEFINE the comparator in a single statement. This is slightly different from the example shown above.
+3. Implement a `public static Comparator<Student> byYear` that orders items by year of graduation, with number of credits as a tie breaker. Please DECLARE and DEFINE the comparator in a single statement. 
 
 4. Implement `public static class byMajor implements Comparator<Student>` that orders by Major with year of graduation as tie breaker.
 
@@ -60,11 +60,11 @@ To get started, copy your Lab 5 into a new project. _If you did not get Lab 5 wo
 
 8. Declare an OrderedList passing a size and the byName Comparator:
 
-	`OrderedList list = new OrderedList(5,Student.byName);`
+	`OrderedList list = new OrderedList(5, Student.byName);`
 
 9. Declare an OrderedList passing a size and the byYear Comparator:
 
-	`OrderedList list2 = new OrderedList(5,byYear);`
+	`OrderedList list2 = new OrderedList(5, byYear);`
 
 10. Declare an OrderedList passing a size and the byMajor Comparator:
 
@@ -76,9 +76,9 @@ To get started, copy your Lab 5 into a new project. _If you did not get Lab 5 wo
 
 ### Documentation
 
-Documentation is an essential part of coding. It is hard to imagine having a job in which you are not part of a team with everyone contributing to the project. This means that others will be using and reviewing your code. And it will be important that they can understand it well enough to use it properly and to modify as needed. The former requires good Javadocs documentation and the latter requires good inline commenting.
+Documentation is an essential part of coding. It is hard to imagine having a job in which you are not part of a team with everyone contributing to the project. This means that others will be using and reviewing your code. And it will be important that they can understand it well enough to use it properly and to modify as needed. The first requires good Javadocs documentation and the second requires good in-line commenting.
 
-Writing code is like writing anything else -- if it is well organized, your reader can better understand the content. There is something called a _Style Guide_ that outlines naming conventions, spacing, indentation, code formatting, etc. for a given language. Your company will likely use either a published guide (e.g. https://google.github.io/styleguide/javaguide.html) or its own version. There are even tools (sometimes referred to as Linters) that check if your code is in compliance with the style guide.
+Writing code is like writing anything else -- if it is well organized, your reader can better understand the content. There is something called a _Style Guide_ that outlines naming conventions, spacing, indentation, code formatting, etc. for a given language, which when followed, keeps code organized and easy to read. Your company will likely use either a published guide (e.g. https://google.github.io/styleguide/javaguide.html) or its own guide. There are even tools (sometimes referred to as Linters) that check if your code is in compliance with the style guide.
 
 At a minimum, try to follow these rules related to code style:
 - Comment your code to explain the logic.
