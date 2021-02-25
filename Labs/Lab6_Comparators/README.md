@@ -52,7 +52,7 @@ To get started, copy your Lab 5 into a new project. _If you did not get Lab 5 wo
 
 5. Declare a `private Comparator<T> orderBy = null;` variable.
 
-6. Copy the OrderedList comparator that has the size parameter. Add the input parameter `Comparator<T> order` to the copy. In the constructor body, set the OrderedList member variable _orderBy_ = to this input parameter.
+6. Copy the OrderedList constructor that has the size parameter. Add the input parameter `Comparator<T> order` to the copy. In the constructor body, set the OrderedList member variable _orderBy_ = to this input parameter.
 
 7. Modify add() and the find methods to make use of the orderBy comparator. HOWEVER, if the orderBy comparator is null, then use the compareTo method of the T class.
 
