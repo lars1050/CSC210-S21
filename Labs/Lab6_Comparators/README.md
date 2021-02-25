@@ -110,4 +110,6 @@ To be graded, your code must compile. If it does not compile, it is an automatic
 - https://docs.oracle.com/javase/8/docs/api/java/util/Comparator.html
 - https://www.geeksforgeeks.org/comparator-interface-java/
 - https://www.tutorialspoint.com/java/java_using_comparator.htm
+- https://www.baeldung.com/java-comparator-comparable
+- https://www.geeksforgeeks.org/comparator-interface-java/
 - https://learn.zybooks.com/zybook/AUGSBURGCSC210LarsonSpring2021/chapter/26/section/1
