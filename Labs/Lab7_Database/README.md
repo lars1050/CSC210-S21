@@ -30,11 +30,11 @@ Define the following Comparators and make sure they are working:
 Complete the following methods and make sure they are working. All of these methods are using a linear search of the array.
 
 - int find(T item);	// use equals for comparison
-- T findLessThan(T item, Comparator<Student> orderBy)
-- T findKey(Object key, Comparator<Object> byKey);
-- T[] findAll(Object key, Comparator<Object> byKey);
-- T findKeyOr(Object key1, Comparator<Object> byKey1, Object key2, Comparator<Object> byKey2);
-- T findKeyAnd(Object key1, Comparator<Object> byKey1, Object key2, Comparator<Object> byKey2);
+- T findLessThan(T item, Comparator\<Student\> orderBy)
+- T findKey(Object key, Comparator\<Object\> byKey);
+- T[] findAll(Object key, Comparator\<Objec\t> byKey);
+- T findKeyOr(Object key1, Comparator\<Object\> byKey1, Object key2, Comparator<Object> byKey2);
+- T findKeyAnd(Object key1, Comparator\<Object\> byKey1, Object key2, Comparator<Object> byKey2);
 
 ### DOCUMENTATION
 
