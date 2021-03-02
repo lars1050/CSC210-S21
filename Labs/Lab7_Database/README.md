@@ -18,11 +18,11 @@
 
 Define the following Comparators and make sure they are working:
 
-- Comparator<Student> `byDefault` using Student compareTo to compare 2 Students.
-- Comparator<Student> `byLast` comparing last names of 2 Students.
-- Comparator<Object> `keyFirst` comparing firstName to Student object.
-- Comparator<Object> `keyMajor` comparing a major to Student object.
-- Comparator<Object> `keyYear` comparing graduation year to Student object.
+- Comparator\<Student\> `byDefault` using Student compareTo to compare 2 Students.
+- Comparator\<Student\> `byLast` comparing last names of 2 Students.
+- Comparator\<Object\> `keyFirst` comparing firstName to Student object.
+- Comparator\<Object\> `keyMajor` comparing a major to Student object.
+- Comparator\<Object\> `keyYear` comparing graduation year to Student object.
 
 
 ### METHODS
