@@ -23,10 +23,6 @@ In class Ordering, create a Comparator<Olympian> that compares 2 Olympians for e
 - `orderBySport` : no tie-breaker
 - `orderByCountry` : year as tie-breaker
 
-### Olympian
-
-One required modification to Olympian is to implement the Copyable interface. This will be the only way that you can use it in your list.
-
 ### Using Keys
 
 In class Olympian, create a Comparator<Object> comparator that uses a key value to test against a class object for each of the fields.These will be used to query the list using values of key fields. Use the name listed below and **throw an exception if the objects passed are not the correct type**.
@@ -36,6 +32,10 @@ In class Olympian, create a Comparator<Object> comparator that uses a key value 
 - `queryBySeason`
 - `queryByCity`
 
+### Olympian
+
+One required modification to Olympian is to implement the Copyable interface. This will be the only way that you can use it in your list.
+
 ### Dynamic Array
 
 Dynamic arrays are arrays that expand as needed without limits. Use a default array size of 100 when first initialized, but at any point, if more elements need to be added, then increase the array size by 100. To do this, you will need to create a new larger array then copy everything over.
@@ -43,6 +43,8 @@ Dynamic arrays are arrays that expand as needed without limits. Use a default ar
 ### Methods
 
 Open index.html in the docs folder in your web browser.
+
+See  https://htmlpreview.github.io/?https://github.com/lars1050/CSC210-S21/blob/main/Projects/Project2_Ordering/docs/index.html
 
 Documentation (from Javadocs) has been provided for you to describe each of the methods of the class. You determine the implementation. Please LET ME KNOW if you need clarification on any of the descriptions.
 
