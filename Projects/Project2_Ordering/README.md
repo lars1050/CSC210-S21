@@ -10,6 +10,10 @@ The data of Olympians was obtained from kaggle.com, which has many many database
 
 <hr>
 
+#### Corrections:
+
+(03/09) - There is only a "name" not a first and last. Thus, the name comparator should only compare that value (no tie-breakers).
+
 ### OrderedList Class Comparator and Sorting
 
 Create a class variable `Comparator<T> orderBy` to store the default order of the stored class. The array _items_ should always be sorted according to this class comparator. In any method in which a comparator is not passed, the sortOrder comparator should be used.
@@ -19,7 +23,7 @@ Initialize `Comparator<T> orderBy` to a Comparator<T> whose compare method calls
 >NOTE: declare and define all Comparators in the file Orderings.java so I can easily find and review them.
 
 In class Ordering, create a Comparator<Olympian> that compares 2 Olympians for each of the fields listed below. Use the names.
-- `orderByName` : last name with first as tie-breaker
+  - `orderByName` : name only <del>with first as tie-breaker</del>
 - `orderBySport` : no tie-breaker
 - `orderByCountry` : year as tie-breaker
 
