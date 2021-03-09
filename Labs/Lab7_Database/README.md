@@ -18,11 +18,11 @@
 
 Define the following Comparators and make sure they are working:
 
-- Comparator<Student> `byDefault` using Student compareTo to compare 2 Students.
-- Comparator<Student> `byLast` comparing last names of 2 Students.
-- Comparator<Object> `keyFirst` comparing firstName to Student object.
-- Comparator<Object> `keyMajor` comparing a major to Student object.
-- Comparator<Object> `keyYear` comparing graduation year to Student object.
+- Comparator\<Student\> `byDefault` using Student compareTo to compare 2 Students.
+- Comparator\<Student\> `byLast` comparing last names of 2 Students.
+- Comparator\<Object\> `keyFirst` comparing firstName to Student object.
+- Comparator\<Object\> `keyMajor` comparing a major to Student object.
+- Comparator\<Object\> `keyYear` comparing graduation year to Student object.
 
 
 ### METHODS
@@ -30,11 +30,11 @@ Define the following Comparators and make sure they are working:
 Complete the following methods and make sure they are working. All of these methods are using a linear search of the array.
 
 - int find(T item);	// use equals for comparison
-- T findLessThan(T item, Comparator<Student> orderBy)
-- T findKey(Object key, Comparator<Object> byKey);
-- T[] findAll(Object key, Comparator<Object> byKey);
-- T findKeyOr(Object key1, Comparator<Object> byKey1, Object key2, Comparator<Object> byKey2);
-- T findKeyAnd(Object key1, Comparator<Object> byKey1, Object key2, Comparator<Object> byKey2);
+- T findLessThan(T item, Comparator\<Student\> orderBy)
+- T findKey(Object key, Comparator\<Object\> byKey);
+- T[] findAll(Object key, Comparator\<Objec\t> byKey);
+- T findKeyOr(Object key1, Comparator\<Object\> byKey1, Object key2, Comparator<Object> byKey2);
+- T findKeyAnd(Object key1, Comparator\<Object\> byKey1, Object key2, Comparator<Object> byKey2);
 
 ### DOCUMENTATION
 
