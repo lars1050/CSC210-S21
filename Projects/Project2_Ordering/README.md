@@ -44,8 +44,6 @@ Dynamic arrays are arrays that expand as needed without limits. Use a default ar
 
 Open index.html in the docs folder in your web browser.
 
-See  https://htmlpreview.github.io/?https://github.com/lars1050/CSC210-S21/blob/main/Projects/Project2_Ordering/docs/index.html
-
 Documentation (from Javadocs) has been provided for you to describe each of the methods of the class. You determine the implementation. Please LET ME KNOW if you need clarification on any of the descriptions.
 
 You can implement in whichever way you think is appropriate EXCEPT, you must meet the following implementation requirements:
