@@ -17,4 +17,4 @@ We will walk through an example in class. Then ...
 5. Determine a path (e.g. "EENNWSE") and set PATH_OUT_OF_MAZE equal to this string. Run it again to see if you have succeeded!
 
 
-Zip it up and submit on Moodle.
+Submit Main.java on Moodle
