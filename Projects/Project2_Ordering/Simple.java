@@ -65,7 +65,7 @@ public class Simple implements Comparable<Simple>, Copyable<Simple> {
 	/** KEY Comparators for querying the list (our faux database) */
 	public static Comparator<Object> queryByAlpha = new Comparator<Object>() {
 		@Override
-		public int compare(Object obj, Object key) {
+		public int compare(Object key, Object obj) {
 			Simple simple = (Simple) obj;
 			String alpha = (String) key;
 			return simple.alpha().compareTo(alpha);
@@ -74,7 +74,7 @@ public class Simple implements Comparable<Simple>, Copyable<Simple> {
 
 	public static Comparator<Object> queryByNumeric = new Comparator<Object>() {
 		@Override
-		public int compare(Object obj, Object key) {
+		public int compare(Object key, Object obj) {
 			Simple simple = (Simple) obj;
 			Integer numeric = (Integer) key;
 			return simple.numeric().compareTo(numeric);
