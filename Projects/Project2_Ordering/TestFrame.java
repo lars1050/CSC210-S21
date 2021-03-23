@@ -49,7 +49,7 @@ public class TestFrame {
 	public static void main(String[] args) {
 
 		// All methods defined? Can add and peek?
-		Simple[] array = buildSimples(3,Simple.orderByAlpha);
+
 		System.out.println("\n--- SANITY CHECK ---");
 		try {
 			testCallAll();
@@ -58,6 +58,7 @@ public class TestFrame {
 			e.printStackTrace();
 			return;
 		}
+		Simple[] array = buildSimples(3,Simple.orderByAlpha);
 		System.out.print("ADDED ");
 		print(array);
 		System.out.print(simples.peek(0)+" ");
