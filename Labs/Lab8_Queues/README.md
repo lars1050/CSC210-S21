@@ -1,5 +1,5 @@
 ### Lab 8 : Stack, Queue, DFS, BFS
-#### Due Tuesday, April 6 at end-of-day
+#### Due Friday, April 9 at end-of-day
 #### Submit a single zipped file to Moodle
 
 <hr>
