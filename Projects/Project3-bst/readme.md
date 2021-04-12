@@ -1,6 +1,6 @@
 ## Project 3
 ### Trees, Recursion, and Tree Search
-#### DUE: Thursday, April 22 end-of-day
+#### DUE: Thursday, April 22 end-of-day (I will accept up to April 27 end-of-day. No late penalty for this assignment.)
 #### Zip all files and submit via Moodle
 
 <hr>
